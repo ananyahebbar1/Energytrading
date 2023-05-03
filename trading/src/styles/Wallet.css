@@ -1,0 +1,58 @@
+.container {
+    margin-top: 30px;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .list-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .list-item.selected {
+    background-color: #e8f0fe;
+  }
+  
+  .account-details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .account-details h6 {
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .private-key {
+    font-family: monospace;
+    word-wrap: break-word;
+  }
+  
+  .balance {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .refresh-button {
+    color: #2e78b7;
+  }
+  
+  .delete-button {
+    color: #e60000;
+  }
+  
